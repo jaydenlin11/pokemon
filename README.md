@@ -2,8 +2,6 @@
 
 Designed to explore graph algorithms through a Pokémon-themed adventure. Built to optimize travel routes for catching Pokémon across a map, this project tackles Minimum Spanning Trees (MST) and the Travelling Salesperson Problem (TSP).
 
-📅 **Current Date:** March 17, 2025
-
 ## 🚀 Overview
 
 PokePath Finder processes a graph of x-y coordinates (Pokémon locations) and applies rules to connect them. It features three modes:
