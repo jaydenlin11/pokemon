@@ -1,6 +1,6 @@
 # 🏆 PokePath Finder
 
-A tool inspired by the University of Michigan's EECS 281 course, designed to explore graph algorithms through a Pokémon-themed adventure. Built to optimize travel routes for catching Pokémon across a map, this project tackles Minimum Spanning Trees (MST) and the Travelling Salesperson Problem (TSP).
+Designed to explore graph algorithms through a Pokémon-themed adventure. Built to optimize travel routes for catching Pokémon across a map, this project tackles Minimum Spanning Trees (MST) and the Travelling Salesperson Problem (TSP).
 
 📅 **Current Date:** March 17, 2025
 
@@ -86,23 +86,6 @@ A list of coordinates:
 ✅ **FASTTSP Mode**: **Greedy heuristic** + **2-opt refinement**.  
 ✅ **OPTTSP Mode**: **Guaranteed optimal solution** via exhaustive search.  
 ✅ **Efficient Data Structures**: **Vectors, priority queues, Union-Find**.  
-
-## 🏗️ Building
-
-Requires **g++ 6.2.0** with `-O3` optimization. Use:
-
-```bash
-make -R -r
-```
-
-## 🧪 Testing
-
-Includes test files (`test-n-MODE.txt`) to debug and validate solutions. Run with up to **10 coordinates per file**.
-
-## ⚠️ Constraints
-
-- ❌ No C++11 regex, threads, or smart pointers.
-- 💾 **Memory-efficient** for large inputs (up to **10,000 nodes**).
 
 ## 🎨 Inspiration
 
